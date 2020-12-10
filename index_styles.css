@@ -20,12 +20,30 @@ body {
 }
 
 header {
-    font-family: mortise, sans-serif;
+    font-family: Century Gothic;
     font-weight: 200;
     position: absolute;
     padding: 0;
     left: 40px;
     top: 10px;
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border: 1px solid #fff;
 }
 
 header p {
@@ -45,7 +63,7 @@ header p {
     position: relative;
     height: auto;
     padding: 0;
-    background-color: #101C48; /* #3b7ea1;*/
+    background-color: #101C48;
 }
 .small {
     display: none;
