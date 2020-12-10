@@ -20,6 +20,7 @@ body {
 }
 
 header {
+    background-image: url(../HeaderBackground.png);
     font-family: Century Gothic;
     font-weight: 200;
     position: absolute;
