@@ -45,7 +45,7 @@ header p {
     position: relative;
     height: auto;
     padding: 0;
-    background-color: #1f2630; /* #3b7ea1;*/
+    background-color: #101C48; /* #3b7ea1;*/
 }
 .small {
     display: none;
@@ -67,17 +67,6 @@ header p {
     background-size: cover;
 }
 
-/*#second-section .family-img {*/
-/*    position: absolute;*/
-/*    right: 0;*/
-/*    display: inline-block;*/
-/*    min-height: 100px;*/
-/*    height: 100%;*/
-/*    width: 70%;*/
-/*    background-image: url("./familypic.png");*/
-/*    background-position: center;*/
-/*    background-size: cover;*/
-/*}*/
 #second-section img {
     width: 70%;
     margin: 10px;
