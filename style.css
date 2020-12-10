@@ -1,12 +1,12 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Century Gothic;
+	font-family: montserrat;
 }
 
 header {
-	background-image: url(../GroupPhoto.png);
-	height: 100vh;
+	background-image: url(GroupPhoto.png);
+	height: auto;
 	background-size: cover;
 	background-position: center;
 }
@@ -24,7 +24,29 @@ ul li {
 
 ul li a {
 	text-decoration: none;
-	color: #000000;
+	color: #101C48;
 	padding: 5px 20px;
-	border: 1px solid #000000;
+	border: 1px solid #101C48;
+}
+
+#first-section {
+    position: relative;
+    height: auto;
+    width: auto;
+    background-color: #101C48;
+    padding: 0;
+}
+
+#first-section .chaka-img {
+    display: inline;
+    height: 100%;
+    width: 100%;
+    background-image: url("GroupPhoto.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.main {
+    background-color: #101C48;
+    overflow: hidden;
 }

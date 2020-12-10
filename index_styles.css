@@ -20,32 +20,35 @@ body {
 }
 
 header {
-    background-image: url(../HeaderBackground.png);
-    font-family: Century Gothic;
+    font-family: montserrat;
     font-weight: 200;
     position: absolute;
     padding: 0;
     left: 60px;
-    top: 5px;
+    top: -3px;
 }
 
-ul{
+.topnav {
+    overflow: hidden;
+    background-color: #101C48;
+    padding: 0px;
+}
+
+.topnav a{
     float: left;
-    list-style-type: none;
-
-}
-
-ul li{
-    display: inline-block;
-
-}
-
-/*ul li a{
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
     text-decoration: none;
-    color: #000000;
-    padding: 5px 20px;
-    border: 1px solid #000000;
-}*/
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 
 header p {
     margin: 0;
@@ -57,14 +60,19 @@ header p {
     max-width: calc(100% - 80px);
     left: 40px;
     top: 40px;
-    background-color: #fcf6f2;
+    background-color: #101C48;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
 }
 
 #first-section {
     position: relative;
     height: auto;
-    padding: 0;
+    width: auto;
     background-color: #101C48;
+    padding: 0px;
 }
 .small {
     display: none;
@@ -74,14 +82,16 @@ header p {
     position: relative;
     height: auto;
     padding: 0;
-    background-color: #101C48;
+    background-color: #e95942;
+    background-size: cover;
+    background-position: center;
 }
 
 #first-section .chaka-img {
-    display: inline-block;
+    display: inline;
     height: 100%;
-    width: 60%;
-    background-image: url("./campanile.jpg");
+    width: 100%;
+    background-image: url("GroupPhoto.png");
     background-position: center;
     background-size: cover;
 }
@@ -105,11 +115,11 @@ header p {
     width: calc(100% - 40px);
     display: inline-block;
     /*font-family: rig-solid-medium-outline, sans-serif;*/
-    font-family: montserrat, sans-serif;
+    font-family: montserrat;
     font-weight: 800;
     font-style: normal;
     font-size: 2.5em;
-    color:white;
+    color: white;
     text-wrap: normal;
     word-wrap: break-word;
     text-align: center;

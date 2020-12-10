@@ -9,49 +9,46 @@
 </head>
 <body>
     <header>
-        <div class="topnav">
-            
-            <a href="#home">Home</a>
-            <a href="#resources">Resources</a>
-            <a href="#departments">Departments</a>
-            <a href="#committees">Committees</a>
-            
+        <div class="main">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Departments</a></li>
+                <li><a href="#">Committees</a></li>
+            </ul>
         </div>
     </header>
 
-    <div id="first-section">
+    <div id="container">
+        <div id="first-section">
             <div class="chaka-img"></div>
             <svg class="small" viewBox="0 0 300 300">
                 <a href="chaka.html">
-                    <text fill="white" x="25%" y="25%"> 
+                    <text fill="white" x="25%" y="25%"> <!-- header position? -->
                         ASUC SENATOR TELLEM
                     </text>
                 </a>
             </svg>
             <img class="chaka-img" src="GroupPhoto.png" />
-            <svg class="full" width="40%" viewBox="0 0 200 200">
+            <svg class="full" width="40%" viewBox="-10 0 300 300">
                 <a href="chaka.html">
                     <text fill="white" x="10" y="50%">
-                        <tspan x="35%" y="25%"> Meet </tspan>
-                        <tspan x="10" y="40%"> Senator Tellem's </tspan>
-                        <tspan x="65" y="55%"> Office </tspan>
+                        <tspan x="10" y="30%">ASUC Senator Tellem</tspan>
                     </text>
                 </a>
             </svg>
             <style>
                 svg {
                     position: absolute;
-                    top: 60%;
-                    right: 30%;
+                    top: 50%;
+                    right: 0;
                     transform: translate(0, -50%);
                 }
                 text {
-                    font-family: montserrat;
-                    font-size: x-large;
+                    font-family: rig-solid-medium-outline, sans-serif;
                 }
             </style>
         </div>
-
         <div id="second-section">
             <div class="inner">
                 <h2>OUR MISSION</h2>
@@ -89,8 +86,7 @@
             <a href="https://www.facebook.com/ChakaTellem.ASUCsenator"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
             <a href="https://twitter.com/SenatorTellem"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
         </footer>
-
-    
+    </div>
 
 </body>
 </html>
