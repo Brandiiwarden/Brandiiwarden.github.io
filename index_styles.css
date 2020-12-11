@@ -31,7 +31,7 @@ header {
 .topnav {
     overflow: hidden;
     background-color: #101C48;
-    padding: 0px;
+    padding: 1px;
 }
 
 .topnav a{
@@ -54,26 +54,16 @@ header p {
     margin: 0;
 }
 
-#container {
-    position: absolute;
-    min-width: calc(100% - 80px);
-    max-width: calc(100% - 80px);
-    left: 40px;
-    top: 40px;
-    background-color: #101C48;
-    padding-top: 25px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-}
 
 #first-section {
     position: relative;
     height: auto;
     width: auto;
     background-color: #101C48;
-    padding: 0px;
+    background-clip: content-box;
+    padding-top: 50px;
 }
+
 .small {
     display: none;
 }
