@@ -23,7 +23,7 @@ header {
     font-family: montserrat;
     font-weight: 200;
     position: absolute;
-    padding: 0;
+    padding-left: 200px;
     left: 0px;
     top: -3px;
     right: 0%;
@@ -32,7 +32,7 @@ header {
 .topnav {
     overflow: hidden;
     background-color: #101C48;
-    padding: 1px; /*dont change*/
+    padding: 19px;
 }
 
 .topnav a{
@@ -50,6 +50,16 @@ header {
     color: black;
 }
 
+.header-img {
+    display: inline;
+    width: 15%;
+    height: 15%;
+    background-color: #101C48;
+    background-clip: border-box;
+    padding: 10.5px;
+
+}
+
 
 header p {
     margin: 0;
@@ -62,7 +72,6 @@ header p {
     width: auto;
     background-color: #101C48;
     background-clip: content-box;
-    padding-top: 50px;
 }
 
 .small {
@@ -73,7 +82,7 @@ header p {
     position: relative;
     height: auto;
     padding: 0;
-    background-color: #e95942;
+    background-color: #FFFFF;
     background-size: cover;
     background-position: center;
 }
@@ -100,17 +109,16 @@ header p {
 }
 
 #second-section h2 {
-    padding: 0 20px;
+    padding-top: 15px;
     margin: 10px;
     max-width: calc(100% - 40px);
     width: calc(100% - 40px);
     display: inline-block;
-    /*font-family: rig-solid-medium-outline, sans-serif;*/
     font-family: montserrat;
     font-weight: 800;
     font-style: normal;
     font-size: 2.5em;
-    color: white;
+    color: black;
     text-wrap: normal;
     word-wrap: break-word;
     text-align: center;
@@ -125,7 +133,7 @@ header p {
     font-weight: 300;
     font-style: normal;
     font-size: 1.25em;
-    color: white;
+    color: black;
 }
 
 #third-section {
