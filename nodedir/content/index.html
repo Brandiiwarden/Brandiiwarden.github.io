@@ -19,16 +19,65 @@
         </style>
         <a href="/">Home</a>
         <a href="/chaka">Meet Chaka</a>
+        <div class="dropdown">
+    		<button class="dropbtn">Resources 
+      			<i class="fa fa-caret-down"></i>
+    		</button>
+    		<div class="dropdown-content">
+      			<a href="#">Office Hours</a>
+      			<a href="#">Link 2</a>
+      			<a href="#">Link 3</a>
+    		</div>
+  		</div>
+  		<div class="dropdown">
+    		<button class="dropbtn">Departments 
+      			<i class="fa fa-caret-down"></i>
+    		</button>
+    		<div class="dropdown-content">
+      			<a href="#">Academic and Professional Opportunities</a>
+      			<a href="#">Campus Climate</a>
+      			<a href="#">Environmental Justice</a>
+    		</div>
+  		</div>
+  		<div class="dropdown">
+    		<button class="dropbtn">Committees 
+      			<i class="fa fa-caret-down"></i>
+    		</button>
+    		<div class="dropdown-content">
+      			<a href="#">Community Engagement</a>
+      			<a href="#">Legislative</a>
+      			<a href="#">Technology</a>
+    		</div>
+  		</div>
         <a href="https://asuc.org/">ASUC Website</a>
     </header>
-    <div id="container">
-        <div id="first-section">
-            <img class="chaka-img" src="officephoto3.png" />
+    <div id="first-section">
+            <img class="chaka-img" src="GroupPhoto.png" />
+            <svg class="full" width="40%" viewBox="0 0 200 200">
+                <text fill="white" x="10" y="50%">
+                    <tspan x="15%" y="25%">Meet ASUC</tspan>
+                    <tspan x="4" y="40%">Senator Tellem's</tspan>
+                    <tspan x="62" y="55%">Office</tspan>
+                </text>
+            </svg>
+            <style>
+                svg {
+                    position: absolute;
+                    top: 64%;
+                    right: 30%;
+                    transform: translate(0, -50%);
+                }
+                text {
+                    font-family: sofia-pro, sans-serif;
+                    font-size: 1.65em;
+                    padding: 0;
+                }
+            </style>
         </div>
         <div id="second-section">
             <div class="inner">
-                <h2>OUR MISSION</h2>
-                <img src="campanile.JPG" align="RIGHT"/><p>Chaka was elected as the Black Community-Endorsed Senator and is dedicated to assuring that communities on campus have the proper
+                <h2>SENATOR TELLEM</h2>
+                <img src="SenatorTellem.png" align="LEFT"/><p>Chaka was elected as the Black Community-Endorsed Senator and is dedicated to assuring that communities on campus have the proper
                     access, resources, and knowledge to not only survive, but also thrive at Berkeley. The office aims to address Cal's campus climate,
                     advance academic and professional opportunities, and institutionalize environmental justice, while cultivating relationships between
                     different communities on and off campus. Our mission is to make Berkeley more inclusive and supportive for all students by amplifying
@@ -37,12 +86,12 @@
             </div>
         </div>
         <div id="third-section">
-            <h2 style="display: inline-block; width: 100%;">Departments and Committees</h2>
+            <h2 style="display: inline-block; width: 100%;"></h2>
             <a href="/ce" class="sixth ce">
-                <img src="/commitee/ce/ce-logo.png"/>
+                <img src="../commitee/ce/ce-logo.png"/>
             </a>
             <a href="/apo" class="sixth apo">
-                <img src="/commitee/apo/apo-logo.png"/>
+                <img src="../commitee/apo/apo-logo.png"/>
             </a>
             <a href="/ej" class="sixth ej">
                 <img src="/commitee/ej/ej-logo.png"/>
@@ -63,7 +112,6 @@
             <a href="https://www.facebook.com/ChakaTellem.ASUCsenator"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
             <a href="https://twitter.com/SenatorTellem"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
         </footer>
-    </div>
 
 </body>
 </html>
