@@ -40,14 +40,14 @@ header a {
     padding-top: 20px;
 }
 
-/**#container {
+#container {
     position: absolute;
     min-width: calc(100% - 80px);
     max-width: calc(100% - 80px);
     left: 40px;
     top: 60px;
     background-color: #fcf6f2;
-}*/
+}
 
 
 /* The dropdown container */
@@ -110,6 +110,20 @@ header a {
     display: none;
 }
 
+/**#first-section h2 {
+    padding-top: 0px;
+    max-width: calc(100% - 40px);
+    width: calc(100% - 40px);
+    display: inline-block;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #fcf6f2;
+    text-align: center;
+
+}*/
+
 #second-section {
     color: black;
     position: relative;
@@ -127,7 +141,7 @@ header a {
 #second-section img {
     width: 40%;
     height: 40%;
-    margin: 10px;
+    margin: 40px;
     margin-right: 20px;
     padding-left: 30px;
 }
@@ -139,54 +153,101 @@ header a {
 }
 
 #second-section h2 {
-    padding-top: 15px;
-    padding-bottom: 10px;
+    margin: 10px;
+    top: 80px;
+    right: -120px;
+    position: relative;
     max-width: calc(100% - 40px);
     width: calc(100% - 40px);
-    display: inline-block;
+    display: inline;
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 3em;
     color: #070F2E;
-    text-wrap: normal;
-    word-wrap: break-word;
     text-align: center;
 }
 
 
 #second-section p {
-    padding: 20px;
     margin: 20px;
-    margin-top: 100px;
+    padding-top: 120px;
+    margin-top: 0px;
     font-family: sofia-pro, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-size: 1.35em;
     color: #1f2630;
     text-align: center;
+    border: 7px #FFFFF;
 }
 
-#third-section {
+#third-section .toprow {
     position: relative;
     display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     padding: 0;
     background-color: rgba(0, 0, 0, 0);
-    background: #1f2630;
+    background: #070F2E;
+}
+
+#third-section .bottomrow {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background: #070F2E;
+}
+
+#third-section h2 {
+    padding-top: 20px;
+    padding-left: 430px;
+    background: #070F2E;
+    background-clip: content-box;
+    padding-bottom: 0px;
+    max-width: 100%;
+    width: 100%;
+    display: inline;
+    font-family: montserrat, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #E9DE81;
+    word-wrap: break-word;
+    text-align: center;
 }
 
 #third-section .sixth {
     position: relative;
     grid-column: span 1;
     align-content: center;
-    border-radius: 50%;
-    margin: 20px 100px;
+    border-radius: 10%;
+    margin: 50px 50px;
+    margin-top: 120px;
+    margin-bottom: 130px;
+    width: 40%;
+    margin-left: 128px;
+    
 }
+
+#third-section .sixthtwo {
+    position: relative;
+    grid-column: span 1;
+    align-content: center;
+    border-radius: 10%;
+    margin: 50px 50px;
+    margin-bottom: 90px;
+    width: 40%;
+    margin-left: 128px;
+}
+
+
 #third-section img {
-    width: 50%;
-    margin: 25%;
+    width: 40%;
+    margin: 10%;
 }
 
 .sixth {
@@ -198,15 +259,49 @@ header a {
     background-color: #fcf6f2;
 }
 
+.sixthtwo {
+    color: black;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: #fcf6f2;
+}
+
 .apo {
     border: 7px solid var(--apo);
     background-color: var(--apo);
+
+}
+
+.apo p {
+    padding: 20px;
+    margin: 20px;
+    padding-top: 250px; /* for the committee/dept names */
+    font-family: sofia-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+    color: #fcf6f2;
+    text-align: center;
 }
 
 .ce {
     border: 7px solid var(--ce);
     background-color: var(--ce);
     transition: .5s;
+}
+
+.ce p {
+    padding: 20px;
+    margin: 20px;
+    padding-top: 210px; /* for the committee/dept names */
+    font-family: sofia-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+    color: #fcf6f2;
+    text-align: center;
 }
 
 .ce:hover {
@@ -218,6 +313,18 @@ header a {
     transition: .5s;
 }
 
+.ej p {
+    padding: 20px;
+    margin: 20px;
+    padding-top: 210px; /* for the committee/dept names */
+    font-family: sofia-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+    color: #fcf6f2;
+    text-align: center;
+}
+
 .ej:hover {
 }
 
@@ -225,6 +332,18 @@ header a {
     border: 7px solid var(--cc);
     background-color: var(--cc);
     transition: .5s;
+}
+
+.cc p {
+    padding: 20px;
+    margin: 20px;
+    padding-top: 210px; /* for the committee/dept names */
+    font-family: sofia-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+    color: #fcf6f2;
+    text-align: center;
 }
 
 .cc:hover {
@@ -236,6 +355,18 @@ header a {
     transition: .5s;
 }
 
+.tech p {
+    padding: 20px;
+    margin: 20px;
+    padding-top: 210px; /* for the committee/dept names */
+    font-family: sofia-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+    color: #fcf6f2;
+    text-align: center;
+}
+
 .tech:hover {
 }
 
@@ -245,10 +376,33 @@ header a {
     transition: .5s;
 }
 
+.leg p {
+    padding: 20px;
+    margin: 20px;
+    padding-top: 210px; /* for the committee/dept names */
+    font-family: sofia-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+    color: #fcf6f2;
+    text-align: center;
+}
+
 .leg:hover {
 }
 
 .sixth p {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    margin: 0;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.sixthtwo p {
     display: inline;
     position: absolute;
     top: 50%;
@@ -337,6 +491,10 @@ footer .fa-twitter-square {
         padding-bottom: 40px;
     }
     .sixth {
+        grid-column: span 6 !important;
+        padding: 30px 0;
+    }
+    .sixthtwo {
         grid-column: span 6 !important;
         padding: 30px 0;
     }
