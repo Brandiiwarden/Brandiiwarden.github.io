@@ -295,6 +295,10 @@ header a {
     text-align: center;
 }
 
+.apo:hover img {
+    transform: scale(1.5);
+}
+
 .ce {
     border: 7px solid var(--ce);
     background-color: var(--ce);
@@ -313,7 +317,8 @@ header a {
     text-align: center;
 }
 
-.ce:hover {
+.ce:hover img {
+    transform: scale(1.5);
 }
 
 .ej {
@@ -334,7 +339,8 @@ header a {
     text-align: center;
 }
 
-.ej:hover {
+.ej:hover img {
+    transform: scale(1.5);
 }
 
 .cc {
@@ -355,7 +361,8 @@ header a {
     text-align: center;
 }
 
-.cc:hover {
+.cc:hover img {
+    transform: scale(1.5);
 }
 
 .tech {
@@ -376,7 +383,8 @@ header a {
     text-align: center;
 }
 
-.tech:hover {
+.tech:hover img {
+    transform: scale(1.5);
 }
 
 .leg {
@@ -397,7 +405,8 @@ header a {
     text-align: center;
 }
 
-.leg:hover {
+.leg:hover img {
+    transform: scale(1.5);
 }
 
 .sixth p {
