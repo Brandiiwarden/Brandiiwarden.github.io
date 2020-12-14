@@ -259,6 +259,37 @@ header a {
     margin: 10%;
 }
 
+
+#fourth-section .inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+#fourth-section h2 {
+    margin: 10px;
+    top: 20px;
+    position: absolute;
+    max-width: calc(100% - 40px);
+    width: calc(100% - 40px);
+    display: block;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3em;
+    color: #070F2E;
+    text-align: center;
+    border: 7px solid #070F2E;
+}
+
+#fourth-section img {
+    width: 35%;
+    padding: 15px;
+    margin: 5%;
+    margin-top: 10%;
+    border: 7px solid #070F2E;
+}
+
 .sixth {
     color: black;
     text-align: center;
@@ -438,6 +469,7 @@ footer {
     height: 15vh;
     width: 100%;
     color: #1f2630;
+    background-color: #070F2E;
 }
 
 footer .fa-instagram {
