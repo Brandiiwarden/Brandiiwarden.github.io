@@ -10,7 +10,7 @@
 <body>
 
 <header>
-        <img class="TellemLogo" src="../SenatorTellemLogo.png" width="130px" align="left"/>
+        <img class="TellemLogo" src="../SenatorTellemLogo.png" width="150px" align="left"/>
         <style>
             .TellemLogo {
                 text-align: left;
@@ -75,7 +75,7 @@
                 text-align: center;
                 font-family: rig-solid-medium-outline, sans-serif;
                 color: #E9DE81; /*#ffee58;*/
-                font-size: 6em;
+                font-size: 4.5em;
                 padding: 20px 0;
             }
         </style>
@@ -84,22 +84,29 @@
         <div class="title">
             <h2>CE Associates</h2>
         </div>
-        <div class="toprow">
+        <div class="associates">
             <a href="#" class="sixth jason">
                 <img src="ce/jasondones.jpg"/>
                 <h2>Jason Dones</h2>
-
-                <p style="padding-bottom: 20px;">
+                <p>
                 Jason Dones is a first-year studying Physics and Political Economy. As Community Engagement Associate, he hopes to help make the ASUC more responsive to and representative of the student population. He chose to join the office of Senator Chaka Tellem because he knows that this office is committed to bringing everyone in and keeping Cal the best while making us even better. He loves playing soccer, cooking, and traveling in his free time. When we get back in-person, you can find him in the physics lab or taking a hike off-campus.
-           </p>
+                </p>
             </a>
+
             <a href="#" class="sixth bianca">
                 <img src="ce/biancatorresmurray.png"/>
-                <p>Bianca Torres Murray</p>
+                <h2>Bianca Torres Murray</h2>
+                <p>
+                 Bianca is a first-year from Los Angeles, CA who intends to major in Ethnic Studies. She is a Community Engagement Associate for Senator Tellem’s office. Bianca is very passionate about social justice, government, community engagement, and research. After Cal, Bianca hopes to attend law school. In her free time, Bianca enjoys taking walks, painting/drawing, exploring cities, traveling, and going to events.
+                </p>
             </a>
+
             <a href="#" class="sixth zach">
                 <img src="ce/zachneff.jpg"/>
-                <p>Zachary Neff</p>
+                <h2>Zachary Neff</h2>
+                <p>
+                Zach Neff is a third-year studying Political Science and a member of the Cal Varsity Rugby team. Hailing from Sacramento, California, Zach has a passion for Public Policy and Public Organization. He embraces intersectionality and seeks to advance community empathy and tolerance for all walks of people.  Zach is a member of the Pi Kappa Alpha fraternity and is the co-founder of the POC in Greek Life club. In his free time he enjoys deep conversations, long walks on the beach, and kicking it.
+                </p>
             </a>
         </div>
     </div>
@@ -149,13 +156,12 @@
         font-weight: 500;
     }
 
-    #third-section .toprow {
+    #third-section .associates {
         position: relative;
         display: inline-grid;
         grid-template-columns: auto auto auto;
-        grid-gap: 0px;
         width: 100%;
-        padding: 0;
+        padding-bottom: 120px;
         background-color: rgba(0, 0, 0, 0);
         background: #FFFFF;
 
@@ -164,11 +170,12 @@
     #third-section .sixth {
         position: relative;
         grid-column: span 1;
-
+        align-content: center;
         border-radius: 10%;
-        margin: 10px;
-        margin-bottom: 230px;
+        margin-top: 10px;
+        margin-bottom: 130px;
         width: 60%;
+        left: 23%;
         
     }
 
@@ -176,6 +183,7 @@
     #third-section img {
         width: 100%;
         margin: 0%;
+
     }
 
     .sixth {
@@ -191,10 +199,11 @@
 
     }
 
-    .bianca p {
-        padding: 20px;
-        margin: 20px;
-        padding-top: 250px; /* for the committee/dept names */
+    .bianca h2 {
+        position: relative;
+        padding-bottom: 0px;
+        margin: 0px;
+        display: inline;
         font-family: sofia-pro, sans-serif;
         font-weight: 800;
         font-style: normal;
@@ -203,13 +212,25 @@
         text-align: center;
     }
 
+    .bianca p {
+        margin: 30px;
+        padding-top: 545px;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: .5em;
+        color: #1f2630;
+        text-align: center;
+        padding-bottom: 63px;
+    }
+
     .jason {
     }
 
     .jason h2 {
         position: relative;
-        padding-bottom: 30px;
-        margin: 30px;
+        padding-bottom: 0px;
+        margin: 0px;
         display: inline;
         font-family: sofia-pro, sans-serif;
         font-weight: 800;
@@ -220,28 +241,46 @@
     }
 
     .jason p {
-        margin: 20px;
+        margin: 30px;
         padding-top: 600px;
         font-family: sofia-pro, sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: .55em;
+        font-size: .5em;
         color: #1f2630;
         text-align: center;
         padding-bottom: 63px;
     }
 
 
-    .zach p {
-        padding: 20px;
-        margin: 20px;
-        padding-top: 250px; /* for the committee/dept names */
+    .zach h2 {
+        position: relative;
+        padding-bottom: 0px;
+        margin: 0px;
+        display: inline;
         font-family: sofia-pro, sans-serif;
         font-weight: 800;
         font-style: normal;
         font-size: 1em;
         color: black;
         text-align: center;
+    }
+
+    .zach p {
+        margin: 30px;
+        padding-top: 630px;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: .5em;
+        color: #1f2630;
+        text-align: center;
+        padding-bottom: 63px;
+    }
+
+    .zach img {
+        postion: relative;
+        top: 200px;
     }
 
 
