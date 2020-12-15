@@ -5,90 +5,127 @@
     <title>ASUC Senator Tellem</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://use.fontawesome.com/0acc59fded.js"></script>
-    <link href="index_styles.css" type="text/css" rel="stylesheet"/>
+    <link href="./index_styles.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-    <img class="header-img" src="SenatorTellemLogo.png" />
     <header>
-        <div class="topnav">
-            <a href="#home">Home</a>
-            <a href="#resources">Resources</a>
-            <a href="#departments">Departments</a>
-            <a href="#committees">Committees</a>
-            
-        </div>
+        <img class="TellemLogo" src="SenatorTellemLogo.png" width="150px" align="left"/>
+        <style>
+            .TellemLogo {
+                text-align: left;
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+        </style>
+        <a href="/">Home</a>
+        <a href="/chaka">Meet Chaka</a>
+        <div class="dropdown">
+    		<button class="dropbtn">Resources 
+      			<i class="fa fa-caret-down"></i>
+    		</button>
+    		<div class="dropdown-content">
+      			<a href="#">Office Hours</a>
+      			<a href="#">Events</a>
+      			<a href="#">Link 3</a>
+    		</div>
+  		</div>
+  		<div class="dropdown">
+    		<button class="dropbtn">Departments 
+      			<i class="fa fa-caret-down"></i>
+    		</button>
+    		<div class="dropdown-content">
+      			<a href="committee/apo.html">Academic and Professional Opportunities</a>
+      			<a href="committee/cc.html">Campus Climate</a>
+      			<a href="committee/ej.html">Environmental Justice</a>
+    		</div>
+  		</div>
+  		<div class="dropdown">
+    		<button class="dropbtn">Committees 
+      			<i class="fa fa-caret-down"></i>
+    		</button>
+    		<div class="dropdown-content">
+      			<a href="committee/ce.html">Community Engagement</a>
+      			<a href="committee/legislative.html">Legislative</a>
+      			<a href="committee/tech.html">Technology</a>
+    		</div>
+  		</div>
+        <a href="https://asuc.org/">ASUC Website</a>
     </header>
-
     <div id="first-section">
-            <div class="chaka-img"></div>
-            <svg class="small" viewBox="0 0 300 300">
-                <a href="chaka.html">
-                    <text fill="white" x="25%" y="25%"> 
-                        ASUC SENATOR TELLEM
-                    </text>
-                </a>
-            </svg>
             <img class="chaka-img" src="GroupPhoto.png" />
             <svg class="full" width="40%" viewBox="0 0 200 200">
-                <a href="chaka.html">
-                    <text fill="white" x="10" y="50%">
-                        <tspan x="35%" y="25%"> Meet </tspan>
-                        <tspan x="2" y="40%"> Senator Tellem's </tspan>
-                        <tspan x="65" y="55%"> Office </tspan>
-                    </text>
-                </a>
+                <text fill="white" x="10" y="50%">
+                    <tspan x="15%" y="25%">Meet ASUC</tspan>
+                    <tspan x="4" y="40%">Senator Tellem's</tspan>
+                    <tspan x="62" y="55%">Office</tspan>
+                </text>
             </svg>
             <style>
                 svg {
                     position: absolute;
-                    top: 60%;
-                    right: 31%;
+                    top: 61%;
+                    right: 30.5%;
                     transform: translate(0, -50%);
                 }
                 text {
-                    font-family: montserrat;
-                    font-size: x-large;
+                    font-family: sofia-pro, sans-serif;
+                    font-size: 1.65em;
+                    font-weight: 400;
+                    padding: 0;
                 }
             </style>
         </div>
-
         <div id="second-section">
             <div class="inner">
-                <h2>Senator Tellem</h2>
                 <img src="SenatorTellem.png" align="LEFT"/>
-                <svg class="full" width="40%" viewBox="0 0 200 200">
-                <a href="chaka.html">
-                    <text fill="black" x="10" y="50%">
-                        <p>Chaka was elected as the Black Community-Endorsed Senator and is dedicated to assuring that communities on campus have the proper
+                <div class="bordertext">
+                <h2>SENATOR TELLEM</h2><p>Chaka was elected as the Black Community-Endorsed Senator and is dedicated to assuring that communities on campus have the proper
                     access, resources, and knowledge to not only survive, but also thrive at Berkeley. The office aims to address Cal's campus climate,
                     advance academic and professional opportunities, and institutionalize environmental justice, while cultivating relationships between
                     different communities on and off campus. Our mission is to make Berkeley more inclusive and supportive for all students by amplifying
                     the voices of the most marginalized and assuring that everyone has a positive experience here at Cal.</p>
-                    </text>
-                </a>
-            </svg>
+                </div>
 
             </div>
         </div>
         <div id="third-section">
-            <a href="#idk" class="sixth ce">
-                <p>COMMUNITY ENGAGEMENT</p>
-            </a>
-            <a href="#idk" class="sixth apo">
-                <p>ACADEMIC PROGRAMS & OPPORTUNITIES</p>
-            </a>
-            <a href="#idk" class="sixth ej ">
-                <p>ENVIRONMENTAL JUSTICE</p>
-            </a>
-            <a href="#idk" class="sixth cc ">
-                <p>CAMPUS CLIMATE</p>
-            </a>
-            <a href="./tech.html" class="sixth tech ">
-                <p>TECH</p>
-            </a>
-            <a href="#idk" class="sixth leg ">
-                <p>LEGISLATIVE</p>
-            </a>
+        	<div class="title">
+		        <h2>Segments of Our Office</h2>
+		    </div>
+            <div class="toprow">
+		        <a href="committee/ce.html" class="sixth ce">
+		            <img src="committee/ce/ce-logo.png"/>
+		            <p>Community Engagement</p>
+		        </a>
+		        <a href="committee/apo.html" class="sixth apo">
+		            <img src="committee/apo/apo-logo.png"/>
+		            <p>Academic & Professional Opportunities</p>
+		        </a>
+	            <a href="committee/ej.html" class="sixth ej">
+		            <img src="committee/ej/ej-logo.png"/>
+		            <p>Environmental Justice</p>
+		        </a>
+		    </div>
+		    <div class="bottomrow">
+		        <a href="committee/cc.html" class="sixthtwo cc">
+		            <img src="committee/cc/cc-logo.png"/>
+		            <p>Campus Climate</p>
+		        </a>
+		        <a href="committee/tech.html" class="sixthtwo tech">
+		            <img src="committee/tech/tech-logo.png"/>
+		            <p>Technology</p>
+		        </a>
+		        <a href="committee/legislative.html" class="sixthtwo leg">
+		            <img src="committee/leg/legislative-logo.png"/>
+		            <p>Legislative</p>
+		        </a>
+		    </div>
+        </div>
+        <div id="fourth-section">
+            <div class="inner">
+            <img src="ejEvent.jpg" align="LEFT"/><img src="LawEvent.jpg" align="RIGHT"/>
+            <h2>Past Events</h2>
+            </div>
         </div>
 
         <footer>
@@ -96,8 +133,6 @@
             <a href="https://www.facebook.com/ChakaTellem.ASUCsenator"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
             <a href="https://twitter.com/SenatorTellem"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
         </footer>
-
-    
 
 </body>
 </html>
