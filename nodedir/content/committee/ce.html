@@ -80,6 +80,20 @@
             }
         </style>
     </div>
+
+    <div id="second-section">
+        <div class="inner">
+            <img src="ce/izzyhuerta.jpg" align="LEFT"/>
+            <div class="bordertext">
+            <h2>Izzy Huerta</h2>
+            <h3>CE Chair</h3>
+            <p>Isabel Huerta is a sophomore double majoring in Political Science and Ethnic Studies and pursuing a minor in Race and Law. Born and raised in Santa Barbara, she hopes to dismantle institutional white supremacy in schools, by writing anti-racist school policy and targeting the very curriculum that is taught in K-12 education #ethnicstudies. In her free time, she loves making charcuterie boards, learning tiktok dances, and spending an entire day at the beach.</p>
+            </div>
+
+        </div>
+    </div>
+
+
     <div id="third-section">
         <div class="title">
             <h2>CE Associates</h2>
@@ -140,6 +154,83 @@
         color: #64b5f6;
     }
 
+    #second-section {
+        color: black;
+        position: relative;
+        height: auto;
+        padding: 0;
+    }
+
+    #second-section img {
+        width: 30%;
+        margin: 40px;
+        margin-right: 20px;
+        padding-left: 10px;
+        margin-left: 0px;
+    }
+
+    #second-section .inner {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #second-section h2 {
+        position: relative;
+        margin: 10px;
+        top: 60px;
+        right: -310px;
+        max-width: calc(100% - 40px);
+        width: calc(100% - 40px);
+        display: inline;
+        font-family: montserrat, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3em;
+        color: #E9DE81;
+        text-align: center;
+    }
+
+    #second-section h3 {
+        position: relative;
+        margin: 10px;
+        top: 90px;
+        right: -100px;
+        max-width: calc(100% - 40px);
+        width: calc(100% - 40px);
+        display: inline;
+        font-family: montserrat, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5em;
+        color: #E9DE81;
+        text-align: center;
+    }
+
+
+    #second-section p {
+        margin: 20px;
+        padding-top: 140px;
+        margin-top: 0px;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.55em;
+        color: white;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+    #second-section .bordertext {
+        border: 2px solid #070F2E;
+        background-color: #070F2E;
+        display: table;
+        position: relative;
+        top: 40px;
+        right: 10px;
+
+    }
+
     #third-section .title {
         position: relative;
         display: inline-grid;
@@ -150,10 +241,10 @@
         background: #FFFFF;
         color: black;
         text-align: center;
-        font-family: montserrat, sans-serif;
+        font-family: sofia-pro, sans-serif;
         font-style: normal;
         font-size: 2.25em;
-        font-weight: 500;
+        font-weight: 800;
     }
 
     #third-section .associates {
@@ -173,7 +264,7 @@
         align-content: center;
         border-radius: 10%;
         margin-top: 10px;
-        margin-bottom: 130px;
+        margin-bottom: 200px;
         width: 60%;
         left: 23%;
         
@@ -189,7 +280,7 @@
     .sixth {
         color: black;
         text-align: center;
-        font-family: montserrat, sans-serif;
+        font-family: sofia-pro, sans-serif;
         font-weight: 700;
         font-size: 1.5em;
         background-color: #fcf6f2;
@@ -214,11 +305,11 @@
 
     .bianca p {
         margin: 30px;
-        padding-top: 545px;
+        padding-top: 585px;
         font-family: sofia-pro, sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: .5em;
+        font-size: .55em;
         color: #1f2630;
         text-align: center;
         padding-bottom: 63px;
@@ -242,11 +333,11 @@
 
     .jason p {
         margin: 30px;
-        padding-top: 600px;
+        padding-top: 650px;
         font-family: sofia-pro, sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: .5em;
+        font-size: .55em;
         color: #1f2630;
         text-align: center;
         padding-bottom: 63px;
@@ -268,11 +359,11 @@
 
     .zach p {
         margin: 30px;
-        padding-top: 630px;
+        padding-top: 670px;
         font-family: sofia-pro, sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: .5em;
+        font-size: .55em;
         color: #1f2630;
         text-align: center;
         padding-bottom: 63px;
@@ -307,6 +398,27 @@
         #first-section img {
             width: 100%;
             position: relative;
+        }
+
+        #second-section .inner {
+            position: relative;
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+        #second-section img {
+            display: block;
+            width: 100%;
+            padding-bottom: 10px;
+            margin: 0;
+        }
+        #second-section h2 {
+            margin-left: 0;
+        }
+        #second-section {
+            height: auto;
+        }
+        #second-section p {
+            padding-bottom: 40px;
         }
 
         .sixth {
