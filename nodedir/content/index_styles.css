@@ -468,6 +468,7 @@ header a {
 
 footer {
     position: relative;
+    padding: 0;
     font-family: mortise, sans-serif;
     font-weight: 200;
     height: 15vh;
