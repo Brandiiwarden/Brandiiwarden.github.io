@@ -9,26 +9,19 @@
 </head>
 <body>
 
-<header>
-        <img class="TellemLogo" src="../SenatorTellemLogo.png" width="150px" align="left"/>
-        <style>
-            .TellemLogo {
-                text-align: left;
-                padding-left: 20px;
-                padding-top: 10px;
-            }
-        </style>
-        <a href="/">Home</a>
+    <div class="topnav" id="myTopnav">
+        <img class="TellemLogo" src="SenatorTellemLogo.png" width="150px" align="left"/>
+        <a href="#home" class="active">Home</a>
         <div class="dropdown">
             <button class="dropbtn">Resources 
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
                 <a href="#">Office Hours</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">Events</a>
+                <a href="https://asuc.org/">ASUC Website</a>
             </div>
-        </div>
+        </div> 
         <div class="dropdown">
             <button class="dropbtn">Departments 
                 <i class="fa fa-caret-down"></i>
@@ -49,8 +42,8 @@
                 <a href="committee/tech.html">Technology</a>
             </div>
         </div>
-        <a href="https://asuc.org/">ASUC Website</a>
-    </header>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
 <div id="container">
     <div id="first-section">
@@ -131,6 +124,17 @@
         </div>
     </div>
 
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
 
     <footer>
         <a href="https://www.instagram.com/asucsenatortellem/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -139,6 +143,7 @@
     </footer>
 </div>
 <style>
+
     #second-section {
         background-color: #fcf6f2;
     }
