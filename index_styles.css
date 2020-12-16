@@ -45,6 +45,10 @@ header a:hover {
   color: black;
 }
 
+.mainHeader .icon {
+  display: none;
+}
+
 
 /* The dropdown container */
 .dropdown {
@@ -570,13 +574,20 @@ footer .fa-twitter-square {
         font-size: 10vw;
     }
     
-    header a {
+    .mainHeader.responsive { 
+        position: relative;
+    }
+
+    .mainHeader.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .mainHeader.responsive a {
         float: none;
         display: block;
         text-align: left;
     }
-      
-    header-right {
-        float: none;
-    }
+
 }
