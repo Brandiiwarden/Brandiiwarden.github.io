@@ -500,13 +500,6 @@ footer .fa-twitter-square {
     transform: translate(50%, -50%);
 }
 
-@media screen and (max-width: 600px) {
-  .mainHeader a:not(:first-child) {display: none;}
-  .mainHeader a.icon {
-    float: right;
-    display: block;
-  }
-}
 
 @media screen and (max-width: 600px) {
     #container {
@@ -582,7 +575,7 @@ footer .fa-twitter-square {
         font-size: 10vw;
     }
     
-    .mainHeader.responsive { 
+    .mainHeader.responsive {
         position: relative;
     }
 
@@ -596,6 +589,12 @@ footer .fa-twitter-square {
         float: none;
         display: block;
         text-align: left;
+    }
+
+    .mainHeader a:not(:first-child) {display: none;}
+    .mainHeader a.icon {
+        float: right;
+        display: block;
     }
 
 }
