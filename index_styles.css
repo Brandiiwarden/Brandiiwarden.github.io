@@ -37,17 +37,13 @@ header {
 header a {
     float: left;
     padding-left: 25px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
-/*#container {
-    position: absolute;
-    min-width: calc(100% - 80px);
-    max-width: calc(100% - 80px);
-    left: 40px;
-    top: 60px;
-    background-color: #fcf6f2;
-}*/
+header a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 
 /* The dropdown container */
