@@ -500,6 +500,14 @@ footer .fa-twitter-square {
     transform: translate(50%, -50%);
 }
 
+@media screen and (max-width: 600px) {
+  .mainHeader a:not(:first-child) {display: none;}
+  .mainHeader a.icon {
+    float: right;
+    display: block;
+  }
+}
+
 
 @media screen and (max-width: 600px) {
     #container {
@@ -591,10 +599,6 @@ footer .fa-twitter-square {
         text-align: left;
     }
 
-    .mainHeader a:not(:first-child) {display: none;}
-    .mainHeader a.icon {
-        float: right;
-        display: block;
-    }
+    
 
 }
