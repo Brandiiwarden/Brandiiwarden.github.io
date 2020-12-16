@@ -129,6 +129,23 @@ body {
 
 }
 
+#first-section h2 {
+    top: 0px;
+    left: 15vw;
+    position: relative;
+    max-width: 50vw;
+    width: 50vw;
+    display: block;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.75em;
+    color: #fcf6f2;
+    text-align: center;
+    z-index: 1000px;
+
+}
+
 #second-section {
     color: black;
     position: relative;
@@ -136,13 +153,11 @@ body {
     padding: 0;
 }
 
-#second-section img {
-    width: 40%;
-    height: 40%;
-    margin: 40px;
-    margin-right: 20px;
-    padding-left: 10px;
-    margin-left: 0px;
+.imgresponsive {
+  padding: 10px;
+  padding-right: 0px;
+  width: 45%;
+  height: auto;
 }
 
 #second-section .inner {
@@ -153,8 +168,8 @@ body {
 
 #second-section h2 {
     margin: 10px;
-    top: 50px;
-    right: -160px;
+    top: 3vw;
+    left: 9vw;
     position: relative;
     max-width: calc(100% - 40px);
     width: calc(100% - 40px);
@@ -169,25 +184,25 @@ body {
 
 
 #second-section p {
-    margin: 20px;
-    padding-top: 90px;
-    margin-top: 0px;
+    position: relative;
+    padding-top: 3vw;
+    left: -1vw;
     font-family: sofia-pro, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.35em;
+    max-width: 50vw;
+    width: 50vw;
+    font-size: 1vw;
     color: #1f2630;
     text-align: center;
-    padding-bottom: 63px;
 }
 
 #second-section .bordertext {
-    border: 2px solid black;
     display: table;
     position: relative;
-    top: 40px;
-    right: 10px;
-
+    top: 1vw;
+    left: 3vw;
+    bottom: 0vw;
 }
 
 #third-section .title {
@@ -535,12 +550,7 @@ footer .fa-twitter-square {
         max-width: 100% !important;
         width: 100% !important;
     }
-    #second-section img {
-        display: block;
-        width: 100%;
-        padding-bottom: 10px;
-        margin: 0;
-    }
+    
     #second-section h2 {
         margin-left: 0;
     }
