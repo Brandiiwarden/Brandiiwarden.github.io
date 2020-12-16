@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://use.fontawesome.com/0acc59fded.js"></script>
     <link href="./index_styles.css" type="text/css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
 </head>
 <body>
     <header class="mainHeader" id="myMainHeader">
@@ -132,8 +133,8 @@
     <script>
     function myFunction() {
         var x = document.getElementById("myMainHeader");
-        if (x.className === "mainHeader" || x.className == "dropdown") {
-            x.className += " responsive";
+        if (x.className === "mainHeader") {
+            x.className += "responsive";
         } else {
             x.className = "mainHeader";
         }
