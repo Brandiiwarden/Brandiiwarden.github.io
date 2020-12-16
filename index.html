@@ -23,32 +23,41 @@
     		<button class="dropbtn">Resources 
       			<i class="fa fa-caret-down"></i>
     		</button>
-    		<div class="dropdown-content">
+    		<div class="dropdown-content" id="myMainHeader">
       			<a href="#">Office Hours</a>
       			<a href="#">Events</a>
+                <a href="https://asuc.org/">ASUC Website</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
     		</div>
   		</div>
   		<div class="dropdown">
     		<button class="dropbtn">Departments 
       			<i class="fa fa-caret-down"></i>
     		</button>
-    		<div class="dropdown-content">
+    		<div class="dropdown-content" id="myMainHeader">
       			<a href="committee/apo.html">Academic and Professional Opportunities</a>
       			<a href="committee/cc.html">Campus Climate</a>
       			<a href="committee/ej.html">Environmental Justice</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
     		</div>
   		</div>
   		<div class="dropdown">
     		<button class="dropbtn">Committees 
       			<i class="fa fa-caret-down"></i>
     		</button>
-    		<div class="dropdown-content">
+    		<div class="dropdown-content" id="myMainHeader">
       			<a href="committee/ce.html">Community Engagement</a>
       			<a href="committee/legislative.html">Legislative</a>
       			<a href="committee/tech.html">Technology</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
     		</div>
   		</div>
-        <a href="https://asuc.org/">ASUC Website</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -133,11 +142,12 @@
     <script>
     function myFunction() {
         var x = document.getElementById("myMainHeader");
-        if (x.className === "mainHeader" || x.className === "dropdown" || x.className == "dropbtn" || x.className == "dropdown-content") {
+        if (x.className === "mainHeader") {
             x.className += "responsive";
         } else {
             x.className = "mainHeader";
         }
+
     }
     </script>
 
