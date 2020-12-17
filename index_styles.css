@@ -22,7 +22,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #070F2E;
-  font-family:sofia-pro, sans-serif;
+  font-family: sofia-pro, sans-serif;
   padding-top: 10px;
   padding-left: 10px;
 }
@@ -105,19 +105,22 @@ body {
     display: none;
 }
 
-/**#first-section h2 {
-    padding-top: 0px;
-    max-width: calc(100% - 40px);
-    width: calc(100% - 40px);
-    display: inline-block;
-    font-family: montserrat, sans-serif;
-    font-weight: 400;
+#first-section h2 {
+    margin: 0px;
+    top: 14.5vw;
+    left: 30vw;
+    position: absolute;
+    max-width: 40vw;
+    width: 40vw;
+    display: block;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 600;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 5vw;
     color: #fcf6f2;
     text-align: center;
 
-}*/
+}
 
 #first-section .chaka-img {
     display: inline;
@@ -126,23 +129,6 @@ body {
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
-
-}
-
-#first-section h2 {
-    top: 0px;
-    left: 15vw;
-    position: relative;
-    max-width: 50vw;
-    width: 50vw;
-    display: block;
-    font-family: sofia-pro, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 3.75em;
-    color: #fcf6f2;
-    text-align: center;
-    z-index: 1000px;
 
 }
 
@@ -177,7 +163,7 @@ body {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 3em;
+    font-size: 3vw;
     color: #070F2E;
     text-align: center;
 }
@@ -296,7 +282,7 @@ body {
 .apo p {
     padding: 20px;
     margin: 20px;
-    padding-top: 250px; /* for the committee/dept names */
+    padding-top: 18vw; /* for the committee/dept names */
     font-family: sofia-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -318,7 +304,7 @@ body {
 .ce p {
     padding: 20px;
     margin: 20px;
-    padding-top: 210px; /* for the committee/dept names */
+    padding-top: 16vw; /* for the committee/dept names */
     font-family: sofia-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -340,7 +326,7 @@ body {
 .ej p {
     padding: 20px;
     margin: 20px;
-    padding-top: 210px; /* for the committee/dept names */
+    padding-top: 16vw; /* for the committee/dept names */
     font-family: sofia-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -362,7 +348,7 @@ body {
 .cc p {
     padding: 20px;
     margin: 20px;
-    padding-top: 210px; /* for the committee/dept names */
+    padding-top: 16vw; /* for the committee/dept names */
     font-family: sofia-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -384,7 +370,7 @@ body {
 .tech p {
     padding: 20px;
     margin: 20px;
-    padding-top: 210px; /* for the committee/dept names */
+    padding-top: 16vw; /* for the committee/dept names */
     font-family: sofia-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
