@@ -434,11 +434,11 @@ body {
 }
 
 #fourth-section h2 {
-    margin: 10px;
-    top: 20px;
+    margin: 20px;
+    top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    position: absolute;
+    position: relative;
     max-width: calc(100% - 40px);
     width: calc(100% - 40px);
     display: block;
@@ -453,13 +453,14 @@ body {
 
 }
 
-#fourth-section img {
-    width: 35%;
-    padding: 15px;
-    margin: 5%;
-    margin-top: 10%;
-    border: 7px solid #070F2E;
+
+.eventresponsive {
+  padding: 10px;
+  padding-right: 0px;
+  width: 35%;
+  height: auto;
 }
+
 
 footer {
     position: relative;
