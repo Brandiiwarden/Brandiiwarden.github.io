@@ -254,6 +254,12 @@ body {
     margin: 10%;
 }
 
+.segmentsresponsive {
+  padding-right: 0px;
+  width: 45%;
+  height: auto;
+}
+
 
 .sixth {
     color: black;
