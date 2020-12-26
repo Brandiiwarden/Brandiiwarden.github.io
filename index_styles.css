@@ -310,7 +310,7 @@ body {
 .ce p {
     padding: 20px;
     margin: 20px;
-    padding-top: 16vw; /* for the committee/dept names */
+    padding-top: 16vw;
     font-family: sofia-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -322,6 +322,8 @@ body {
 .ce:hover img {
     transform: scale(1.5);
 }
+
+
 
 .ej {
     border: 7px solid var(--ej);
@@ -560,6 +562,16 @@ footer .fa-twitter-square {
     .sixthtwo {
         grid-column: span 6 !important;
         padding: 30px 0;
+    }
+    .sixth p {
+        display: none;
+    }
+    .sixthtwo p {
+        display: none;
+    }
+    .ej:hover img {
+        transform: scale(1.5);
+
     }
     #third-section {
         height: 100%;
