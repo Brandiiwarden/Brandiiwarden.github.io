@@ -7,104 +7,137 @@
     <script src="https://use.fontawesome.com/0acc59fded.js"></script>
     <link href="../index_styles.css" type="text/css" rel="stylesheet"/>
 </head>
+
 <body>
 
-<header>
-    <a href="/">Home</a>
-    <a href="/chaka">Meet Chaka</a>
-    <a href="https://asuc.org/">ASUC Website</a>
-</header>
-<div id="container">
+    <div class="topnav" id="myTopnav">
+        <img class="TellemLogo" src="SenatorTellemLogo.png" width="150px" align="left"/>
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Resources 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Office Hours</a>
+                <a href="#">Events</a>
+                <a href="https://asuc.org/">ASUC Website</a>
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Departments 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="apo.html">Academic and Professional Opportunities</a>
+                <a href="cc.html">Campus Climate</a>
+                <a href="ej.html">Environmental Justice</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Committees 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="ce.html">Community Engagement</a> 
+                <a href="legislative.html" class="active">Legislative</a>
+                <a href="tech.html">Technology</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+
     <div id="first-section">
-        <h1>
-            Legislative
-        </h1>
-        <p style="max-width:900px; padding: 20px; margin: 0 auto;padding-top: 0px;">
+        <div class="container">
+            <img src="ce/legislative-logo.png" align="CENTER" class="logoresponsive"/>
+            <h1>
+                Legislative
+            </h1>
+            <p>
             The Legislative Committee enacts Senator Tellem’s policy platforms -- including but not limited to Academic and Professional Opportunities, Campus Climate, Environmental Justice, Community Engagement and Diversity -- to create substantive change on behalf of the Berkeley community, ensuring their representation, success, and collectiving flourishing.
-        </p>
-        <style>
-            #first-section p {
-                font-family: sofia-pro, sans-serif;
-                font-weight: 300;
-                font-style: normal;
-                font-size: 1.25em;
-                color: white;
-            }
-            #first-section h1 {
-                max-width: 900px;
-                margin: 0 auto;
-                text-align: center;
-                font-family: rig-solid-medium-outline, sans-serif;
-                color: #8d6e63;
-                font-size: 6em;
-                padding: 20px 0;
-            }
-        </style>
+            </p>
+        </div>
+        
+        
+        
     </div>
+
     <div id="second-section">
-        <!--
-            FOR EACH PROFILE, MAKE THE IMG ALIGN ALTERNATE FROM LEFT TO RIGHT,
-            THEN JUST COPY FROM THE <div class="profile"> TO THE ENDING </div> AND PASTE AND EDIT THE TEXT AND IMG SRC
-        -->
-        <div class="profile">
-            <img src="commitee/leg/maxim no background.png" width="25%" align="left"/>
-            <h2>
-                Maxim Miller — Executive
-            </h2>
-            <p style="padding-bottom: 20px;">
-                Maxim Miller is a second-year, majoring in Legal Studies with a minor in Journalism and Political Science. Born and raised in Los Angeles, California, you can find Maxim doing anything and everything:  surfing, reading, and even questioning the nature of our universe. Maxim loves conversation, talking with anyone, and learning diverse perspectives.
-            </p>
-        </div>
-        <div class="profile left">
-            <img src="commitee/leg/issabella romo.jpeg" width="25%" align="right"/>
-            <h2>
-                Issabella Romo — Associate
-            </h2>
-            <p style="padding-bottom: 20px;">
-                Issabella Romo is a freshman majoring in Legal Studies and minoring in Human Rights. She joined the Legislative Committee in pursuing her passion for creating positive, lasting change through policies. Supporting the Latinx community on campus is a priority for Issabella, and she hopes to contribute to initiatives that create more long-term resources and opportunities for them. She enjoys playing the flute and walking her dog, Oliver (a wire fox terrier) in her free time. Her favorite artists are Ariana Grande and Dua Lipa although she also is a Tchaikovsky enthusiast.
-            </p>
-        </div>
+        <div class="inner">
+            <img src="leg/maxim no background.png" align="LEFT" class="imgresponsive"/> 
+            <div class="bordertext">
+                <h1>Maxim Miller</h1>
 
-        <div class="profile">
-            <img src="commitee/leg/ASUCPicture-Anallely.jpeg" width="25%" align="left"/>
-            <h2>
-                Anallely Martin — Associate
-            </h2>
-            <p style="padding-bottom: 20px;">
-                Anallely is a Legislative Associate for Senator Chaka Tellem’s Legislative Committee. She is an intended Political Economy major and hopes to minor in Public Policy as well. Anallely is extremely passionate about representing marginalized communities and contributing to long lasting change that addresses the inequities faced by underrepresented communities. She hopes to pursue policy work and possibly attend Law school in the future. She is from Palm Springs, CA which is in SoCal. Her hobbies consist of exploring new places in the Bay, hiking, walking her dog (who she’s had since she was 7) and spending days at the beach.
-            </p>
-        </div>
+                <h2>Committee Chair</h2><p style="font-size:1.75vw;">Maxim Miller is a second-year, majoring in Legal Studies with a minor in Journalism and Political Science. Born and raised in Los Angeles, California, you can find Maxim doing anything and everything:  surfing, reading, and even questioning the nature of our universe. Maxim loves conversation, talking with anyone, and learning diverse perspectives.
+                </p>
+            </div>
 
-        <div class="profile left">
-            <img src="commitee/leg/Jalen Johnson.jpg" width="25%" align="right"/>
-            <h2>
-                Jalen Johnson — Associate
-            </h2>
-            <p style="padding-bottom: 20px;">
-                Jalen is a second year studying Political Science. He is from Sacramento, CA and is a Legislative Associate for the legislative committee for Senator Tellem’s office. Jalen is also involved with other on campus activities such as Cal Dems, Cal ACLU and Cal United Nations. Jalen is very passionate about education and political advocacy amongst the youth. His favorite hobbies are playing videogames, watching tv, and traveling. After Cal, Jalen hopes to go to law school or become a high school or college level teacher/professor.
-           </p>
-        </div>
-
-        <div class="profile">
-            <img src="commitee/leg/CynGomez.png" width="25%" align="left"/>
-            <h2>
-                Cyn Gomez — Associate
-            </h2>
-            <p style="padding-bottom: 20px;">
-                Cyn Gomez is a Legislative Associate for the ASUC Office of Chaka Tellem. They are a freshman currently intending to major in Social Welfare with a double minor in Public Policy and Spanish. Their goal is to create systematic change that uplifts underrepresented communities and fights alongside others for representation. After undergrad, Cyn wants to attend law school and practice civil rights law to protect and advocate for those who have been wronged by a system that should be built to protect everyone. They love to read, take naps, and embroider in their freetime, among going for runs and working out to destress. In their free time, you can catch Cyn planning for their next week or studying for any and every class!
-            </p>
-        </div>
-
-        <div class="profile left">
-            <img src="commitee/leg/CaitlinClift.png" width="25%" align="right"/>
-            <h2>
-                Caitlin Clift — Intern
-            </h2>
-            <p style="padding-bottom: 20px;">
-                Caitlin Clift is the Legislative Intern for the Office of ASUC Senator Chaka Tellem. She is currently a freshman intending to major in Political Science. Raised in Orange County, California, she is extremely passionate about immigrant rights and hopes to become an immigration lawyer in the future. She loves dogs, concerts, and making clothes and jewelry. Her favorite activities are spending the day at the beach or exploring new cities with friends.
-            </p>
         </div>
     </div>
+
+
+    <div id="third-section">
+        <div class="title">
+            <h2>Legislative Associates</h2>
+        </div>
+        <div class="associates">
+            <a href="#" class="sixth issabella">
+                <img src="leg/issabella romo.jpeg"/> 
+                <h2>Issabella Romo</h2>
+                <p>
+                    Issabella Romo is a freshman majoring in Legal Studies and minoring in Human Rights. She joined the Legislative Committee in pursuing her passion for creating positive, lasting change through policies. Supporting the Latinx community on campus is a priority for Issabella, and she hopes to contribute to initiatives that create more long-term resources and opportunities for them. She enjoys playing the flute and walking her dog, Oliver (a wire fox terrier) in her free time. Her favorite artists are Ariana Grande and Dua Lipa although she also is a Tchaikovsky enthusiast.
+
+                </p>
+            </a>
+
+            <a href="#" class="sixth anallely">
+                <img src="leg/ASUCPicture-Anallely.jpeg"/> 
+                <h2>Anallely Martin</h2> 
+                <p>
+                    Anallely is a Legislative Associate for Senator Chaka Tellem’s Legislative Committee. She is an intended Political Economy major and hopes to minor in Public Policy as well. Anallely is extremely passionate about representing marginalized communities and contributing to long lasting change that addresses the inequities faced by underrepresented communities. She hopes to pursue policy work and possibly attend Law school in the future. She is from Palm Springs, CA which is in SoCal. Her hobbies consist of exploring new places in the Bay, hiking, walking her dog (who she’s had since she was 7) and spending days at the beach.
+
+                </p> 
+            </a>
+
+            <a href="#" class="sixth jalen"> <!-- rename -->
+                <img src="leg/Jalen Johnson.jpg"/> 
+                <h2>Jalen Johnson</h2>
+                <p>
+                    Jalen is a second year studying Political Science. He is from Sacramento, CA and is a Legislative Associate for the legislative committee for Senator Tellem’s office. Jalen is also involved with other on campus activities such as Cal Dems, Cal ACLU and Cal United Nations. Jalen is very passionate about education and political advocacy amongst the youth. His favorite hobbies are playing videogames, watching tv, and traveling. After Cal, Jalen hopes to go to law school or become a high school or college level teacher/professor.
+
+                </p> 
+            </a>
+
+            <a href="#" class="sixth cyn"> 
+                <img src="leg/cyngomez.jpeg"/> 
+                <h2>Cyn Gomez</h2>
+                <p>
+                    Cyn Gomez is a Legislative Associate for the ASUC Office of Chaka Tellem. They are a freshman currently intending to major in Social Welfare with a double minor in Public Policy and Spanish. Their goal is to create systematic change that uplifts underrepresented communities and fights alongside others for representation. After undergrad, Cyn wants to attend law school and practice civil rights law to protect and advocate for those who have been wronged by a system that should be built to protect everyone. They love to read, take naps, and embroider in their freetime, among going for runs and working out to destress. In their free time, you can catch Cyn planning for their next week or studying for any and every class!
+                </p> 
+            </a>
+        </div>
+    </div>
+
+    <div id="intern-section">
+        <div class="intern">
+            <img src="leg/CaitlinClift.png" align="CENTER" class="internresponsive"/>
+            <h2>Legislative Intern</h2> 
+            <h3>Caitlin Clift</h3> 
+            <p>Caitlin Clift is the Legislative Intern for the Office of ASUC Senator Chaka Tellem. She is currently a freshman intending to major in Political Science. Raised in Orange County, California, she is extremely passionate about immigrant rights and hopes to become an immigration lawyer in the future. She loves dogs, concerts, and making clothes and jewelry. Her favorite activities are spending the day at the beach or exploring new cities with friends.</p> 
+        </div>
+    </div>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
 
     <footer>
         <a href="https://www.instagram.com/asucsenatortellem/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -113,6 +146,122 @@
     </footer>
 </div>
 <style>
+
+    .topnav {
+  overflow: hidden;
+  background-color: #070F2E;
+  font-family: sofia-pro, sans-serif;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #fcf6f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #555;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    #first-section p {
+        position: relative;
+        left: 16vw;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 400;
+        width: 70vw;
+        font-style: normal;
+        font-size: 1.75vw;
+        color: white;
+        padding-bottom: 50px;
+    }
+    #first-section h1 {
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        font-family: rig-solid-medium-outline, sans-serif;
+        color: #E9DE81;
+        font-size: 4.75vw;
+        padding: 10px 0;
+    }
+
+    .logoresponsive {
+        position: absolute;
+        top: -4vw;
+        left: 38vw;
+        padding: 10px;
+        padding-right: 0px;
+        width: 25%;
+        height: auto;
+        opacity: 0.25;
+
+    }
+
+
     #second-section {
         background-color: #fcf6f2;
     }
@@ -120,9 +269,7 @@
         height: auto;
         color: #64b5f6;
     }
-    img {
-        display: inline-block;
-    }
+    
     svg {
         position: relative;
         right: 0;
@@ -133,67 +280,373 @@
         font-family: rig-solid-medium-outline, sans-serif;
         color: #64b5f6;
     }
-    .profile {
-        max-width: 900px;
-        width: 100%;
-        margin: 0 auto;
+
+    #second-section {
+        color: black;
+        position: relative;
         height: auto;
-        text-wrap: normal;
+        padding: 0;
+    }
+
+    .imgresponsive {
+      padding: 10px;
+      padding-right: 0px;
+      width: 30%;
+      height: auto;
+    }
+
+    #second-section .inner {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #second-section h1 {
+        margin: 10px;
+        top: 3vw;
+        left: 20vw;
+        position: relative;
+        max-width: calc(100% - 40px);
+        width: calc(100% - 40px);
+        display: inline;
+        font-family: montserrat, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 3.2vw;
+        color: #070F2E;
+        text-align: center;
+    }
+
+    #second-section h2 {
+        margin: 10px;
+        top: 6vw;
+        left: 0.5vw;
+        position: relative;
+        max-width: calc(100% - 40px);
+        width: calc(100% - 40px);
+        display: inline;
+        font-family: montserrat, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2vw;
+        color: #070F2E;
+        text-align: center;
+    }
+
+
+    #second-section p {
+        position: relative;
+        padding-top: 5vw;
+        left: 5vw;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        max-width: 50vw;
+        width: 50vw;
+        font-size: 1vw;
+        color: #1f2630;
+        text-align: center;
+    }
+
+    #second-section .bordertext {
+        display: table;
+        position: relative;
+        top: 1vw;
+        left: 3vw;
+        bottom: 0vw;
+    }
+
+    #third-section .title {
+        position: relative;
+        display: inline-grid;
+        grid-template-columns: auto;
+        width: 100%;
+        padding: 0px;
+        background-color: rgba(0, 0, 0, 0);
+        background: #FFFFF;
+        color: black;
+        text-align: center;
+        font-family: sofia-pro, sans-serif;
+        font-style: normal;
+        font-size: 2.25em;
+        font-weight: 800;
+    }
+
+    #third-section .associates {
+        position: relative;
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+        padding-bottom: 120px;
+        background-color: rgba(0, 0, 0, 0);
+        background: #FFFFF;
+
+    }
+
+    #third-section .sixth {
+        position: relative;
+        grid-column: span 1;
+        align-content: center;
+        border-radius: 10%;
+        margin-top: 10px;
+        margin-bottom: 200px;
+        width: 60%;
+        left: 23%;
+        
+    }
+
+
+    #third-section img {
+        width: 100%;
+        margin: 0%;
+
+    }
+
+    .sixth {
+        color: black;
+        text-align: center;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 700;
+        font-size: 1.5em;
+        background-color: #fcf6f2;
+    }
+
+
+    .anallely h2 { 
+        position: relative;
+        padding-bottom: 0px;
+        margin: 0px;
+        display: inline;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 1em;
+        color: black;
+        text-align: center;
+    }
+
+    .anallely p { 
+        margin: 30px;
+        padding-top: 700px;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: .55em;
+        color: #1f2630;
+        text-align: center;
+        padding-bottom: 63px;
+    }
+
+    .issabella h2 {
+        position: relative;
+        padding-bottom: 0px;
+        margin: 0px;
+        display: inline;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 1em;
+        color: black;
+        text-align: center;
+    }
+
+    .issabella p { 
+        margin: 30px;
+        padding-top: 700px;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: .6em;
+        color: #1f2630;
+        text-align: center;
+        padding-bottom: 63px;
+    }
+
+
+    .jalen h2 { 
+        position: relative;
+        padding-bottom: 0px;
+        margin: 0px;
+        display: inline;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: .6em;
+        color: black;
+        text-align: center;
+    }
+
+    .jalen p { 
+        margin: 30px;
+        padding-top: 720px;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: .6em;
+        color: #1f2630;
+        text-align: center;
+        padding-bottom: 63px;
+    }
+
+    .jalen img { 
+        postion: relative;
+        top: 200px;
+    }
+
+    .cyn h2 { 
+        position: relative;
+        padding-bottom: 0px;
+        margin: 0px;
+        display: inline;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: .6em;
+        color: black;
+        text-align: center;
+    }
+
+    .cyn p { 
+        margin: 30px;
+        padding-top: 800px;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: .64em;
+        color: #1f2630;
+        text-align: center;
+        padding-bottom: 63px;
+    }
+
+    .sixth p {
+        display: inline;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        margin: 0;
+        width: 140%;
         word-wrap: break-word;
     }
-    .profile > img {
-        display: block !important;
-        width: 25% !important;
-        max-height: 100% !important;
+
+    #intern-section {
+        color: black;
+        position: relative;
+        height: auto;
+        padding: 0;
+        background-color: #070F2E;
     }
-    .profile h2 {
-        color: black !important;
-        width: auto !important;
-        padding: 0 !important;
-        padding-top: 10px !important;
-        margin: 0 !important;
+
+
+    #intern-section .intern {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #intern-section h2 {
+        top: 10vw;
+        left: 6vw;
+        position: absolute;
+        display: block;
+        font-family: sofia-pro, sans-serif;
+        max-width: 10vw;
+        width: 10vw;
+        font-style: normal;
+        font-size: 5vw;
+        color: #E9DE81;
         text-align: left;
-        font-size: 30px !important;
+        justify-content: center;
+
     }
-    .profile p {
-        color: black !important;
-        padding-left: 20px !important;
+
+    #intern-section h3 {
+        position: absolute;
+        top: 3vw;
+        left: 72vw;
+        display: block;
+        font-family: sofia-pro, sans-serif;
+        font-style: normal;
+        font-size: 3vw;
+        color: white;
+        text-align: center;
     }
-    #second-section .profile:last-of-type {
-        padding-bottom: 80px !important;
+
+
+    #intern-section p {
+        position: absolute;
+        top: 10vw;
+        left: 65vw;
+        max-width: 30vw;
+        width: 30vw;
+        display: inline-block;
+        font-family: sofia-pro, sans-serif;
+        font-style: normal;
+        font-size: 1.5vw;
+        color: white;
+        text-align: center;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
-    #second-section .profile:first-of-type {
-        margin-top: 50px !important;
+
+    .internresponsive {
+        position: relative;
+        top: 4vw;
+        left: 36vw;
+        padding: 10px;
+        padding-right: 0px;
+        width: 25%;
+        height: auto;
+        padding-bottom: 100px;
+
     }
-    .left h2 {
-        padding-left: 20px !important;
-    }
+
+
+
     @media (max-width: 900px) {
-        .profile p {
-            text-align: justify;
-            text-justify: newspaper;
-        }
-
-        .profile > img {
-            width: 100% !important;
-        }
-
-        .profile h2 {
-            width: 100% !important;
-            max-width: 100% !important;
-        }
-
-        #second-section .profile:last-of-type {
-            padding-bottom: 0px !important;
-        }
+        
         svg {
             width: 100% !important;
             position: relative;
         }
-        #first-section img {
-            width: 100%;
-            position: relative;
+        
+
+        #second-section .inner {
+            top: 10px;
+            transform: none;
         }
+        
+        #second-section .inner {
+            position: relative;
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+    
+        #second-section h2 {
+            margin-left: 0;
+        }
+        #second-section {
+            height: auto;
+        }
+        #second-section p {
+            padding-bottom: 40px;
+        }
+
+        .sixth {
+            grid-column: span 6 !important;
+            padding: 30px 0;
+        }
+
+        #third-section {
+            height: 100%;
+        }
+        
+
+
+
+
     }
 </style>
 </body>
