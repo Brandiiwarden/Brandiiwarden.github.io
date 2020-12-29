@@ -34,16 +34,16 @@
             </div>
         </div>
         <div class="dropdown">
-            <button class="dropbtn">Committees 
+            <button class="dropbtn">Committees
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="ce.html" class="active">Community Engagement</a> <!-- change active page -->
+                <a href="ce.html">Community Engagement</a> <!-- change active page -->
                 <a href="legislative.html">Legislative</a>
                 <a href="tech.html">Technology</a>
             </div>
         </div>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"></a>
     </div>
 
 
@@ -136,81 +136,6 @@
 </div>
 <style>
 
-    .topnav {
-  overflow: hidden;
-  background-color: #070F2E;
-  font-family: sofia-pro, sans-serif;
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #fcf6f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.active {
-  background-color: #555;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 17px;    
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
     .container {
       position: relative;
       text-align: center;
@@ -227,7 +152,9 @@
         font-size: 1.75vw;
         color: white;
         padding-bottom: 50px;
+        z-index: 10;
     }
+
     #first-section h1 {
         position: relative;
         margin: 0 auto;
@@ -236,17 +163,19 @@
         color: #E9DE81;
         font-size: 4.75vw;
         padding: 10px 0;
+        z-index: 10;
     }
 
     .logoresponsive {
         position: absolute;
-        top: -4vw;
+        top: -3vw;
         left: 38vw;
         padding: 10px;
         padding-right: 0px;
         width: 25%;
         height: auto;
         opacity: 0.25;
+        z-index: -1;
 
     }
 
@@ -257,6 +186,7 @@
     #first-section {
         height: auto;
         color: #64b5f6;
+        z-index: -10;
     }
     
     svg {

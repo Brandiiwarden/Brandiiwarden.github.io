@@ -323,8 +323,6 @@ body {
     transform: scale(1.5);
 }
 
-
-
 .ej {
     border: 7px solid var(--ej);
     background-color: var(--ej);
