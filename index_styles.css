@@ -140,9 +140,9 @@ body {
 }
 
 .imgresponsive {
-  padding: 10px;
+  padding: 50px;
   padding-right: 0px;
-  width: 45%;
+  width: 35%;
   height: auto;
 }
 
@@ -154,7 +154,7 @@ body {
 
 #second-section h2 {
     margin: 10px;
-    top: 3vw;
+    top: 2.5vw;
     left: 9vw;
     position: relative;
     max-width: calc(100% - 40px);
@@ -171,7 +171,7 @@ body {
 
 #second-section p {
     position: relative;
-    padding-top: 3vw;
+    padding-top: 2vw;
     left: -1vw;
     font-family: sofia-pro, sans-serif;
     font-weight: 600;
