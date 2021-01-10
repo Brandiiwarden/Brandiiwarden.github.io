@@ -53,11 +53,16 @@
             <h1>
                 Campus Climate
             </h1>
-            <p>
-                The Campus Climate (CC) Department is dedicated to achieving diversity, equity, and inclusion at UC Berkeley. Our goals are to create equitable hiring practices to increase diverse faculty and enhance mentorship programs to assist freshmen and transfers in their transition to college. We are also committed to ensuring the success of the African American Initiative and the Hispanic Serving Institution. Additionally, we strive to retain and ensure the success of the Black community at Cal and all marginalized groups on campus. Ultimately, our priority is to foster an environment where students feel appreciated and supported on campus.
-
-            </p>
+            
         </div>
+
+    </div>
+
+    <div id="mission-section">
+        <h1> Our Mission </h1>
+        <p>
+            The Campus Climate (CC) Department is dedicated to achieving diversity, equity, and inclusion at UC Berkeley. Our goals are to create equitable hiring practices to increase diverse faculty and enhance mentorship programs to assist freshmen and transfers in their transition to college. We are also committed to ensuring the success of the African American Initiative and the Hispanic Serving Institution. Additionally, we strive to retain and ensure the success of the Black community at Cal and all marginalized groups on campus. Ultimately, our priority is to foster an environment where students feel appreciated and supported on campus.
+        </p>
         
         
         
@@ -94,6 +99,7 @@
             <a href="#" class="sixth NanaAma"> 
                 <img src="cc/NanaAma Arkorful.png"/> 
                 <h2>NanaAma Arkorful</h2> 
+                <h3>Administrator</h3>
                 <p>
                     Ama is a first year student who plans on majoring in International Relations with minors in Korean and African American Studies. Moving from New York to Ghana to Delaware and finally Maryland, she doesn’t necessarily have a hometown. With every place she resides, she gains experiences that contributed to her interest in culture, art and people! Formerly serving as the Diversity and Equity Coordinator for the Maryland Association of Student Council, Ama has experience with educating her peers on intersectionality and how marginalized individuals are at a greater risk for mental health issues due to societal consciousness and constructs. Ama is an African American Initiative Scholar and is currently serving as one of the Campus Climate Administrator for ASUC Senator Chaka Tellem’s Office. In her free time, she can be found watching foreign horror films, studying Korean, photographing people, photoshopping, and taking care of her plants!
 
@@ -104,6 +110,7 @@
             <a href="#" class="sixth brandon"> 
                 <img src="cc/Brandon No Background.png"/> 
                 <h2>Brandon Penilla</h2>
+                <h3>Administrator</h3>
                 <p>
                     Brandon Penilla is a Campus Climate Administrator for ASUC Senator Chaka Tellem’s Office. He is a first-year student from Perris, CA majoring in EECS. Brandon joined Senator Tellem’s office specifically, due to his passion for providing under-represented individuals at Cal with the resources and opportunities they need in order to become successful and influential not only at Berkeley but in their own communities as well. In his free time Brandon likes to draw and paint using all kinds of mediums (charcoal, acrylic, graphite, watercolor and pastel), ride his skateboard, play the piano, watch anime and play sports. </p> 
             </a>
@@ -111,6 +118,7 @@
             <a href="#" class="sixth wesley"> 
                 <img src="cc/WesleyVeigaTransparent.png"/> 
                 <h2>Wesley Veiga</h2>
+                <h3>Administrator</h3>
                 <p>
                     Wesley is a first-year student from Sacramento, CA intending to major in Sociology. He is currently one of the Campus Climate Administrators for ASUC Senator Chaka Tellem’s office. Wesley has a passion for both supporting his Black/mixed underrepresented community at Cal as well as advocating for homeless individuals. In his free time, he loves to be outside and play sports such as tennis and volleyball. He is also a huge fan of amusement parks and going on roller coasters. A fun fact is that although he has never traveled outside of California, Wesley has always wanted to visit England.
                 </p> 
@@ -119,6 +127,7 @@
             <a href="#" class="sixth makena"> 
                 <img src="cc/Makena Umnas.png"/> 
                 <h2>Makena Umnas</h2>
+                <h3>Administrator</h3>
                 <p>
                     Makena is a first-year from Orange County, CA and intends on majoring in psychology. She is currently serving as one of the Campus Climate Administrators for ASUC Senator Chaka Tellem’s office. Makena has a passion for mental health awareness and inclusivity and joined the office with the hopes of advocating for marginalized groups and improving the wellbeing of all individuals on campus. In her free time, she loves going to the beach, trying new food places, and making jewelry.
                 </p> 
@@ -259,18 +268,6 @@
       color: white;
     }
 
-    #first-section p {
-        position: relative;
-        left: 16vw;
-        font-family: sofia-pro, sans-serif;
-        font-weight: 400;
-        width: 70vw;
-        font-style: normal;
-        font-size: 1.75vw;
-        color: white;
-        padding-bottom: 50px;
-        z-index: 10;
-    }
     #first-section h1 {
         position: relative;
         margin: 0 auto;
@@ -278,21 +275,56 @@
         font-family: rig-solid-medium-outline, sans-serif;
         color: #74569e;
         font-size: 4.75vw;
-        padding: 10px 0;
+        padding: 80px 0;
         z-index: 10;
     }
 
     .logoresponsive {
         position: absolute;
-        top: 0vw;
+        top: -2vw;
         left: 38vw;
         padding: 10px;
         padding-right: 0px;
-        width: 25%;
+        width: 20%;
         height: auto;
-        opacity: 0.25;
+        opacity: 0.2;
         z-index: -1;
 
+    }
+
+
+    #mission-section h1 {
+        margin: 10px;
+        top: 3vw;
+        left: 7vw;
+        position: relative;
+        max-width: calc(100% - 40px);
+        width: calc(100% - 40px);
+        display: inline;
+        font-family: montserrat, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+        padding: 2vw;
+        background-color: #48667E;
+        z-index: 1000;
+    }
+
+    #mission-section p {
+        position: relative;
+        top: 2vw;
+        left: 12vw;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 400;
+        width: 70vw;
+        font-style: normal;
+        font-size: 2vw;
+        color: white;
+        padding: 4vw;
+        z-index: 10;
+        background-color: #070F2E;
     }
 
 
@@ -452,7 +484,7 @@
         padding: 5vw;
         padding-bottom: 0px;
         padding-right: 1vw;
-        padding-left: 4vw;
+        padding-left: 2vw;
     }
 
     .jay h2 {
@@ -531,6 +563,21 @@
         background-color: #48667E;
     }
 
+    .NanaAma h3 {
+        position: absolute;
+        padding-bottom: 0px;
+        top: 4.75vw;
+        left: 2vw;
+        margin: 0px;
+        display: inline;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .65em;
+        color: white;
+        text-align: center;
+    }
+
     .NanaAma p { 
         margin: 50px;
         padding-top: 45vw;
@@ -547,79 +594,180 @@
     }
 
 
-    .brandon h2 { 
-        position: relative;
+    .brandon img {
+        background-color: #070F2E;
+        padding: 5vw;
         padding-bottom: 0px;
+        padding-right: 1vw;
+        padding-left: 2vw;
+    }
+
+    .brandon h2 {
+        position: absolute;
+        padding-bottom: 0px;
+        top: 2vw;
+        left: 0;
         margin: 0px;
         display: inline;
         font-family: sofia-pro, sans-serif;
         font-weight: 800;
         font-style: normal;
-        font-size: 1em;
-        color: black;
+        font-size: .9em;
+        color: white;
+        text-align: center;
+        padding: 2vw;
+        padding-top: .5vw;
+        padding-right: 4vw;
+        padding-left: 2vw;
+        background-color: #48667E;
+    }
+
+    .brandon h3 {
+        position: absolute;
+        padding-bottom: 0px;
+        top: 4.75vw;
+        left: 2vw;
+        margin: 0px;
+        display: inline;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .65em;
+        color: white;
         text-align: center;
     }
 
-    .brandon p { 
-        margin: 30px;
-        padding-top: 730px;
+    .brandon p {
+        margin: 50px;
+        padding-top: 35vw;
+        padding-left: 7vw;
         font-family: sofia-pro, sans-serif;
-        font-weight: 600;
+        font-weight: 200;
         font-style: normal;
-        font-size: .5em;
-        color: #1f2630;
+        font-size: 1.1vw;
+        color: white;
         text-align: center;
         padding-bottom: 63px;
+        background: #48667E;
+        background-clip: content-box;
+        
+    }
+    .wesley img {
+        background-color: #070F2E;
+        padding: 5vw;
+        padding-bottom: 0px;
+        padding-right: 1vw;
+        padding-left: 2vw;
     }
 
-    .wesley h2 { 
-        position: relative;
+    .wesley h2 {
+        position: absolute;
         padding-bottom: 0px;
+        top: 2vw;
+        left: 0;
         margin: 0px;
         display: inline;
         font-family: sofia-pro, sans-serif;
         font-weight: 800;
         font-style: normal;
-        font-size: 1em;
-        color: black;
+        font-size: .9em;
+        color: white;
+        text-align: center;
+        padding: 2vw;
+        padding-top: .5vw;
+        padding-right: 4vw;
+        padding-left: 2vw;
+        background-color: #48667E;
+    }
+
+    .wesley h3 {
+        position: absolute;
+        padding-bottom: 0px;
+        top: 4.75vw;
+        left: 2vw;
+        margin: 0px;
+        display: inline;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .65em;
+        color: white;
         text-align: center;
     }
 
-    .wesley p { 
-        margin: 30px;
-        padding-top: 580px;
+    .wesley p {
+        margin: 50px;
+        padding-top: 35vw;
+        padding-left: 7vw;
         font-family: sofia-pro, sans-serif;
-        font-weight: 600;
+        font-weight: 200;
         font-style: normal;
-        font-size: .5em;
-        color: #1f2630;
+        font-size: 1.1vw;
+        color: white;
         text-align: center;
         padding-bottom: 63px;
+        background: #48667E;
+        background-clip: content-box;
+        
     }
 
-    .makena h2 { 
-        position: relative;
+    .makena img {
+        background-color: #070F2E;
+        padding: 5vw;
         padding-bottom: 0px;
+        padding-right: 1vw;
+        padding-left: 2vw;
+    }
+
+    .makena h2 {
+        position: absolute;
+        padding-bottom: 0px;
+        top: 2vw;
+        left: 0;
         margin: 0px;
         display: inline;
         font-family: sofia-pro, sans-serif;
         font-weight: 800;
         font-style: normal;
-        font-size: 1em;
-        color: black;
+        font-size: .9em;
+        color: white;
+        text-align: center;
+        padding: 2vw;
+        padding-top: .5vw;
+        padding-right: 4vw;
+        padding-left: 2vw;
+        background-color: #48667E;
+    }
+
+    .makena h3 {
+        position: absolute;
+        padding-bottom: 0px;
+        top: 4.75vw;
+        left: 2vw;
+        margin: 0px;
+        display: inline;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .65em;
+        color: white;
         text-align: center;
     }
 
-    .makena p { 
-        margin: 30px;
-        padding-top: 580px;
+    .makena p {
+        margin: 50px;
+        padding-top: 35vw;
+        padding-left: 7vw;
         font-family: sofia-pro, sans-serif;
-        font-weight: 600;
+        font-weight: 200;
         font-style: normal;
-        font-size: .5em;
-        color: #1f2630;
+        font-size: 1.1vw;
+        color: white;
         text-align: center;
         padding-bottom: 63px;
+        background: #48667E;
+        background-clip: content-box;
+        
     }
 
     .sixth p {
