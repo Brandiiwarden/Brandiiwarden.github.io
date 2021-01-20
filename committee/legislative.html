@@ -13,6 +13,7 @@
     <div class="topnav" id="myTopnav">
         <img class="TellemLogo" src="SenatorTellemLogo.png" width="150px" align="left"/>
         <a href="../index.html">Home</a>
+        <a href="../meetchaka.html">Meet Chaka</a>
         <a href="../chiefofstaff.html">Chief of Staff</a>
         <div class="dropdown">
             <button class="dropbtn">Resources 
@@ -67,12 +68,12 @@
     </div>
 
     <div id="second-section">
+        <div class="shape"></div>
         <div class="inner">
             <img src="../profiles/maxim_outline.png" align="LEFT" class="imgresponsive"/> 
             <div class="bordertext">
-                <h1>Maxim Miller</h1>
-
-                <h2>Committee Chair</h2><p style="font-size:1.75vw;">Maxim Miller is a second-year, majoring in Legal Studies with a minor in Journalism and Political Science. Born and raised in Los Angeles, California, you can find Maxim doing anything and everything:  surfing, reading, and even questioning the nature of our universe. Maxim loves conversation, talking with anyone, and learning diverse perspectives.
+                <h2>Maxim Miller</h2>
+                <h3>Committee Chair</h3><p style="font-size:1.75vw;">Maxim Miller is a second-year, majoring in Legal Studies with a minor in Journalism and Political Science. Born and raised in Los Angeles, California, you can find Maxim doing anything and everything:  surfing, reading, and even questioning the nature of our universe. Maxim loves conversation, talking with anyone, and learning diverse perspectives.
                 </p>
             </div>
 
@@ -283,7 +284,7 @@
     #mission-section p {
         position: relative;
         top: 0.75vw;
-        left: 12vw;
+        left: 11vw;
         font-family: sofia-pro, sans-serif;
         font-weight: 400;
         width: 70vw;
@@ -295,10 +296,6 @@
         background-color: #070F2E;
     }
 
-
-    #second-section {
-        background-color: #fcf6f2;
-    }
     #first-section {
         height: auto;
         color: #64b5f6;
@@ -317,20 +314,15 @@
     }
 
     #second-section {
-        color: black;
-        position: relative;
-        height: auto;
-        padding: 0;
+        background-color: #fcf6f2;
     }
 
     .imgresponsive {
-      padding: 0px;
-      padding-right: 0px;
-      padding-left: 5vw;
-      width: 30%;
-      height: auto;
-      /*background-color: #070F2E; /* background square on chair photo 
-      background-clip: content-box; */
+        position: relative;
+        padding: 0vw;
+        width: 30%;
+        left: 40vw;
+        height: auto;
     }
 
     #second-section .inner {
@@ -339,10 +331,10 @@
         width: 100%;
     }
 
-    #second-section h1 {
-        margin: 10px;
-        top: 0vw;
-        left: 20vw;
+    #second-section h2 {
+        
+        top: -20vw;
+        left: 12vw;
         position: relative;
         max-width: calc(100% - 40px);
         width: calc(100% - 40px);
@@ -350,54 +342,63 @@
         font-family: montserrat, sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: 3.2vw;
-        color: #070F2E;
+        font-size: 3vw;
+        color: white;
         text-align: center;
+        padding: 2vw;
+        padding-top: 1vw;
+        background-color: #48667E;
     }
 
-    #second-section h2 {
-        margin: 10px;
-        top: 3vw;
-        left: -1vw;
-        position: relative;
-        max-width: calc(100% - 40px);
-        width: calc(100% - 40px);
+    #second-section h3 {
+        position: absolute;
+        top: -17vw;
+        left: 15vw;
+        margin: 0px;
         display: inline;
-        font-family: montserrat, sans-serif;
+        font-family: sofia-pro, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 2vw;
-        color: #070F2E;
+        font-size: 1.5vw;
+        color: white;
         text-align: center;
     }
 
 
     #second-section p {
         position: relative;
-        padding-top: 2vw;
-        left: 5vw;
+        top: -7vw;
+        left: 11vw;
         font-family: sofia-pro, sans-serif;
-        font-weight: 600;
+        font-weight: 400;
+        max-width: 70vw;
+        width: 70vw;
         font-style: normal;
-        max-width: 50vw;
-        width: 50vw;
-        font-size: 1vw;
-        color: #1f2630;
-        text-align: center;
+        font-size: 1.5vw;
+        color: white;
+        padding: 1vw;
+        z-index: 1;
+        background-color: #48667E;
     }
+    
 
-    #second-section .bordertext {
-        display: table;
-        position: relative;
-        top: 1vw;
-        left: 3vw;
-        bottom: 0vw;
+
+     #second-section .shape {
+        position: absolute;
+        left: 2.5vw;
+        height: 80%;
+        width: 95%;
+        background-color: #070F2E;
+        border-radius: 0px;
+        margin-bottom: 10px;
+        margin-right: 20px;
     }
 
     #third-section .title {
         position: relative;
         display: inline-grid;
         grid-template-columns: auto;
+        top: -7vw;
         width: 100%;
         padding: 0px;
         background-color: rgba(0, 0, 0, 0);
@@ -406,7 +407,7 @@
         text-align: center;
         font-family: sofia-pro, sans-serif;
         font-style: normal;
-        font-size: 2.25em;
+        font-size: 2.5em;
         font-weight: 800;
     }
 
@@ -427,9 +428,10 @@
         align-content: center;
         border-radius: 10%;
         margin-top: 10px;
-        margin-bottom: 20vw;
+        margin-bottom: 15vw;
         width: 45%;
         left: 25%;
+        top: -10%;
         
     }
 
