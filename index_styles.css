@@ -81,6 +81,8 @@ body {
   text-align: left;
 }
 
+
+
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #555;
   color: white;
@@ -95,6 +97,10 @@ body {
   display: block;
 }
 
+.small {
+    display: none;
+}
+
 
 #first-section {
     position: relative;
@@ -102,9 +108,7 @@ body {
     padding-top: 5px;
     background-color: #070F2E;
 }
-.small {
-    display: none;
-}
+
 
 #first-section h2 {
     margin: 0px;
