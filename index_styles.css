@@ -103,12 +103,11 @@ body {
 
 
 #first-section {
-    position: relative;
-    height: auto;
-    padding-top: 5px;
-    background-color: #070F2E;
+  position: relative;
+  height: auto;
+  padding-top: 5px;
+  background-color: #070F2E;
 }
-
 
 #first-section h2 {
     margin: 0px;
